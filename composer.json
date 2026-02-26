@@ -1,0 +1,14 @@
+{
+    "name": "kubre/skeleton-mvc",
+    "description": "Skeleton MVC (Simple php mvc starter template/Lib)",
+    "license": "MIT",
+    "require": {
+        "endroid/qr-code": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App",
+            "Core\\": "Core"
+        }
+    }
+}
